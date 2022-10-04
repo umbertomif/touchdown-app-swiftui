@@ -24,9 +24,23 @@ struct ContentView: View {
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
                 ScrollView(.vertical, showsIndicators: false, content: {
                     VStack(spacing: 0) {
+                        
                         FeaturedTabView()
-                            .padding(.vertical, 20.0)
+                          .frame(height: UIScreen.main.bounds.width / 1.475)
+                          .padding(.vertical, 20)
+                        
                         CategoryGridView()
+                        
+                        TitleView(title: "Helmets")
+                        
+                        LazyVGrid(columns: gridLayout, spacing: 15, content: {
+                            ForEach(products) { product in
+                                ProductItemView(product: product)
+                            }
+                        }) //: LazyVGrid
+                        .padding(15)
+        
+                        
                         FooterView()
                             .padding(.horizontal)
                     } //: VStack
