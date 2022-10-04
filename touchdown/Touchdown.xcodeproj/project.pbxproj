@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B3F483C28E5D20500A20131 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F483B28E5D20500A20131 /* PlayerModel.swift */; };
+		8B3F483E28E5D2A900A20131 /* CodableBundleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F483D28E5D2A900A20131 /* CodableBundleExtension.swift */; };
+		8B3F484028E7C52900A20131 /* FeaturedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F483F28E7C52900A20131 /* FeaturedItemView.swift */; };
+		8B3F484228E7C67600A20131 /* FeaturedTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F484128E7C67600A20131 /* FeaturedTabView.swift */; };
+		8B3F484428E9B57700A20131 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F484328E9B57700A20131 /* CategoryModel.swift */; };
+		8B3F484628E9B95B00A20131 /* CategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F484528E9B95B00A20131 /* CategoryItemView.swift */; };
+		8B3F484828E9CEE100A20131 /* CategoryGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F484728E9CEE100A20131 /* CategoryGridView.swift */; };
+		8B3F484A28E9D29500A20131 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3F484928E9D29500A20131 /* SectionView.swift */; };
 		8B80DEFF28E47AD9009CE108 /* NavigationBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B80DEFE28E47AD9009CE108 /* NavigationBarView.swift */; };
 		8B80DF0128E47E79009CE108 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B80DF0028E47E79009CE108 /* LogoView.swift */; };
 		8B8BFF4C28D84F880098B34B /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8BFF4B28D84F880098B34B /* TouchdownApp.swift */; };
@@ -22,6 +30,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B3F483B28E5D20500A20131 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		8B3F483D28E5D2A900A20131 /* CodableBundleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableBundleExtension.swift; sourceTree = "<group>"; };
+		8B3F483F28E7C52900A20131 /* FeaturedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItemView.swift; sourceTree = "<group>"; };
+		8B3F484128E7C67600A20131 /* FeaturedTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedTabView.swift; sourceTree = "<group>"; };
+		8B3F484328E9B57700A20131 /* CategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		8B3F484528E9B95B00A20131 /* CategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItemView.swift; sourceTree = "<group>"; };
+		8B3F484728E9CEE100A20131 /* CategoryGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryGridView.swift; sourceTree = "<group>"; };
+		8B3F484928E9D29500A20131 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		8B80DEFE28E47AD9009CE108 /* NavigationBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarView.swift; sourceTree = "<group>"; };
 		8B80DF0028E47E79009CE108 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		8B8BFF4828D84F880098B34B /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +140,11 @@
 				8B8BFF6C28D854110098B34B /* FooterView.swift */,
 				8B80DF0028E47E79009CE108 /* LogoView.swift */,
 				8B80DEFE28E47AD9009CE108 /* NavigationBarView.swift */,
+				8B3F483F28E7C52900A20131 /* FeaturedItemView.swift */,
+				8B3F484128E7C67600A20131 /* FeaturedTabView.swift */,
+				8B3F484528E9B95B00A20131 /* CategoryItemView.swift */,
+				8B3F484728E9CEE100A20131 /* CategoryGridView.swift */,
+				8B3F484928E9D29500A20131 /* SectionView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -138,6 +159,8 @@
 		8B8BFF6728D8526E0098B34B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8B3F483B28E5D20500A20131 /* PlayerModel.swift */,
+				8B3F484328E9B57700A20131 /* CategoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -145,6 +168,7 @@
 		8B8BFF6828D852760098B34B /* Extension */ = {
 			isa = PBXGroup;
 			children = (
+				8B3F483D28E5D2A900A20131 /* CodableBundleExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -232,11 +256,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B8BFF4E28D84F880098B34B /* ContentView.swift in Sources */,
+				8B3F483E28E5D2A900A20131 /* CodableBundleExtension.swift in Sources */,
 				8B80DF0128E47E79009CE108 /* LogoView.swift in Sources */,
 				8B8BFF6D28D854110098B34B /* FooterView.swift in Sources */,
+				8B3F484028E7C52900A20131 /* FeaturedItemView.swift in Sources */,
 				8B8BFF4C28D84F880098B34B /* TouchdownApp.swift in Sources */,
 				8B8BFF6B28D852E50098B34B /* Constant.swift in Sources */,
+				8B3F484828E9CEE100A20131 /* CategoryGridView.swift in Sources */,
+				8B3F484428E9B57700A20131 /* CategoryModel.swift in Sources */,
 				8B80DEFF28E47AD9009CE108 /* NavigationBarView.swift in Sources */,
+				8B3F484A28E9D29500A20131 /* SectionView.swift in Sources */,
+				8B3F484628E9B95B00A20131 /* CategoryItemView.swift in Sources */,
+				8B3F484228E7C67600A20131 /* FeaturedTabView.swift in Sources */,
+				8B3F483C28E5D20500A20131 /* PlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -347,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

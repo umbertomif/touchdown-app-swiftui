@@ -20,9 +20,7 @@ struct NavigationBarView: View {
                     .font(.title)
                     .foregroundColor(.black)
             }) //: Button
-            
             Spacer()
-            
             LogoView()
                 .opacity(isAnimated ? 1 : 0)
                 .offset(x: 0,y: isAnimated ? 0 : -25 )
@@ -31,7 +29,6 @@ struct NavigationBarView: View {
                         isAnimated.toggle()
                     }
                 })
-            
             Spacer()
             Button(action: {}, label: {
                 ZStack {
